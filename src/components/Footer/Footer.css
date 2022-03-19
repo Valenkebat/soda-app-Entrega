@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Sansita:wght@400;700&display=swap');
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+    footer p {
+        font-family: 'Open Sans', 'Times New Roman', Times;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+#contenedor-1{
+    background: #02536E;
+    padding: 2% 2% 2% 2%;
+}
+
+#contenedor-2{
+    background: #75CFDB;
+    padding: 2% 2% 2% 2%;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.box__footer p{
+    margin-right: 2%;
+    white-space: nowrap;
+}
+
+.inline{
+    display: inline-flex;
+    flex: auto;
+}
+
+div figure{
+    margin-right: 3%;
+}

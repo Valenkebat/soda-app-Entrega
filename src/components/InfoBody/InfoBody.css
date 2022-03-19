@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Sansita:wght@400;700&display=swap');
+
+.containerS{
+    margin: 0% 0% 0% 0%;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: #EFE7E1;
+}
+
+.p{
+    font-family: 'Open Sans', 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #02536E;
+}

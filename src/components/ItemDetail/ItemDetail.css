@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Sansita:wght@400;700&display=swap');
+
+
+.contenedor-ItemDetail{
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+.item-image{
+    width: 700px;
+    height: 533px;
+    background-image: url('/public/ItemDetailImage2.jpg');
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.contenedor-miniaturas{
+    margin-left: 1%;
+}
+.contenedor-miniaturas div{
+    margin-bottom: 2%;
+    width: 81px;
+    height: 81px;
+    border: #EFE7E1;
+    border-radius: 175px;
+    background-image: url('/public/imageMiniatura.jpg');
+}
+
+.categoria{
+    font-family: 'Open Sans', 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: normal;
+    color: #75CFDB;
+}
+
+.producto{
+    font-family: 'Sansita', 'Times New Roman', Times;
+    font-weight: bold;
+    color: #F41316;
+}
+
+.contenedor-creador{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-creador{
+    width: 50px;
+    height: 50px;
+    background: #C4C4C4;
+    border-radius: 100%;
+}
+.nom-creador{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #02536E;
+    font-family: 'Open Sans', 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: bold;
+}

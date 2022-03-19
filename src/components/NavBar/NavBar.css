@@ -1,0 +1,17 @@
+#l a{
+  font-family: 'Open Sans', 'Times New Roman', Times;
+  font-weight: 700;
+  color: #02536E;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+}
+  #l a:hover{ color: #F41316; }
+  #l a:active,#l a.active{ color: #F41316; } 
+
+.contLink{
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  list-style-type: none;
+}

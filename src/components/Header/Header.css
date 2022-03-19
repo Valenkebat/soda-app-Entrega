@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Sansita:wght@400;700&display=swap');
+
+.container-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.box-image{
+    margin-right: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+.box-text{
+    background-color: #F41316;
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+}
+.contenedor-link-tienda{
+    margin-top: 5%;
+}
+.link-tienda{
+    width: 158px;
+    height: 30px;
+    background: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    /* oscuro */
+    font-family: 'Sansita', 'Times New Roman', Times;
+    border: 3px solid #353535;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 0px #353535;
+    border-radius: 100px;
+    color: #F41316;
+}
+
+.title{
+    font-family: 'Sansita', 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 86px;
+    color: #EFE7E1;
+}
+
+.sub-title{
+    font-family: 'Sansita', 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 100%;
+    /* or 70px */
+    
+    letter-spacing: 0.05em;
+    color: #F41316;
+    
+    /* Neutro */
+    -webkit-text-stroke-width: 0.09rem;
+    -webkit-text-stroke-color: #EFE7E1;
+}

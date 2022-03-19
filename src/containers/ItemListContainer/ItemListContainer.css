@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Sansita:wght@400;700&display=swap');
+
+.marginTop5{
+    margin-top: 5%;
+}
+
+.boton-cat{
+    border: none;
+    border-radius: 100px;
+    box-shadow: none;
+    background: none;
+    margin-bottom: 1%;
+    font-family: 'Open Sans', 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: bold;
+    color: #02536E;
+    text-align: start;
+    border: 1px solid #EFE7E1;
+}
+
+.boton-cat:hover{
+    border: 1px solid #75CFDB;
+}
+
+h2{
+    font-family: 'Sansita', 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: bold;
+    color: #F41316;
+}
+
+.Spinner{
+    justify-content: center;
+}
+
+.set-cat{
+    background: #75CFDB;
+    border: none;
+    border-radius: 100%;
+    font-family: 'Open Sans', 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: bold;
+}
