@@ -38,6 +38,7 @@ export const Carrito = () => {
   const[ email, setEmail] = useState(initialBuyer.email);
   const[ phone, setPhone] = useState(initialBuyer.phone);
 
+
   const [values, setValues] = useState(initialState);
   const { items, montoTotal, clear, totalItems } = useContext(CartContext);
   const [costoEnvio, setCostoEnvio] = useState(0);
@@ -67,8 +68,8 @@ export const Carrito = () => {
       total: montoTotal()
     }
     console.log("Compra Terminada")
-
-    addDoc(ordersRef, newOrder);
+    
+    addDoc(ordersRef, newOrder)
 
     items.forEach((element) => {
       console.log(element.name, "  asdsad ",element.quantity)
